@@ -8,10 +8,10 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
 
-# Load cleaned dataset
+# the cleaned dataset
 df = pd.read_csv("cleaned_data.csv")
 
-# Preview data
+# previewing data
 print("Dataset shape:", df.shape)
 print("First few rows:\n", df.head())
 
